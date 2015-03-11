@@ -432,3 +432,10 @@ footer .footer_contacto p{
 	height: 26px;
 	width: 249px;
 }
+
+#fotos_galeria{
+	float: left;
+	margin: 0px 0px 10px 15px;
+}
+
+.hola {}

@@ -93,14 +93,24 @@
 	<h2>
     	Nuestra Galeria
     </h2>
-    
-<ul class="galeria_home">
-  <li><img src="images/img_gato_c.jpg" title="Gato abajo Galeria"/></li>
-  <li><img src="images/img_gato_d.jpg" title="Gato abajo Galeria"/></li>
-  <li><img src="images/img_gato_e.jpg" title="Gato abajo Galeria"/></li>
-  <li><img src="images/img_gato_f.jpg" title="Gato abajo Galeria"/></li>
-  <li><img src="images/img_gato_g.jpg" title="Gato abajo Galeria"/></li>
-  <li><img src="images/img_gato_h.jpg" title="Gato abajo Galeria"/></li>
+
+<ul id="slider2">
+  <li>
+    <img id="fotos_galeria" src="images/img_gato_c.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_d.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_f.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_c.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_d.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_f.jpg" title="Gato abajo Galeria"/>
+  </li>
+  <li>
+    <img id="fotos_galeria" src="images/img_gato_c.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_d.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_f.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_c.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_d.jpg" title="Gato abajo Galeria"/>
+    <img id="fotos_galeria" src="images/img_gato_f.jpg" title="Gato abajo Galeria"/>
+  </li>
 </ul>
 
 </section>
@@ -169,6 +179,13 @@
 <script>
 	$(document).ready(function(){
   $('.bxslider').bxSlider();
+});
+
+  $('#slider2').bxSlider({ 
+   minSlides: 1,
+   maxSlides: 1,
+   slideWidth: 1500,
+   slideMargin: 40
 });
 
 </script>
